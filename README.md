@@ -16,7 +16,7 @@ HTML 기본 학습
   - __HTML__ _역사_
   + **HTML5**의 ~차이점~
 
-```java
+```javascript
 using system.IO
 
 namespace HelloWorldApp {
