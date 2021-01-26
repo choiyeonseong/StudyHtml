@@ -14,13 +14,16 @@ HTML 기본 학습
 
 * Hyper Text Markup *Language* 정의
   - __HTML__ _역사_
-  + **HTML5**의 ~~차이점~~
+  + **HTML5**의 ~차이점~
 
 ---------------------------------------
 
 ## CSS3
 CSS 기본 학습
 
+> CSS is Cascading Style Sheets.
+
+`테스트 코드`
 ---------------------------------------
 
 ## JavaScript 
