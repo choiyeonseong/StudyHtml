@@ -56,3 +56,6 @@ JavaScript 기본 학습
 
 ## Project
 전체 통합 프로젝트
+
+-------
+문의 메일 : <am3251@naver.com>
