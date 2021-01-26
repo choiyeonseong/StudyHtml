@@ -14,7 +14,7 @@ HTML 기본 학습
 
 * Hyper Text Markup Language 정의
   - HTML 역사
-  + HTML5의 차이점
+    + HTML5의 차이점
 
 ---------------------------------------
 
