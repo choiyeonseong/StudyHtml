@@ -32,8 +32,8 @@ namespace HelloWorldApp {
 
 참조링크
 --------
-- [Microsoft](https://www.microsoft.com)
-- [Naver](https://www.naver.com)
+- [Microsoft](https://www.microsoft.com "마이크로소프트")
+- [Naver](https://www.naver.com "")
 ---------------------------------------
 
 ## CSS3
