@@ -28,7 +28,6 @@ namespace HelloWorldApp {
   }
 }
 ```
-
 ![실행결과](https://github.com/choiyeonseong/StudyHtml/blob/main/ref_images/console_result.png "절대경로")
 ```
 
@@ -50,9 +49,9 @@ CSS 기본 학습
 
 `테스트 코드`
 
-- [ ]공부하긔
-- []놀기
-
+- [ ] 공부하기
+- [x] 
+ 
 ---------------------------------------
 
 ## JavaScript 
