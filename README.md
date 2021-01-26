@@ -23,6 +23,7 @@ namespace HelloWorldApp {
   public class Program {
     public static void Main(String[] args){
       Console.WriteLine("Hello world");
+      //Hello World 1lI0oOㅇ 코딩폰트 구별 가능
     }
   }
 }
