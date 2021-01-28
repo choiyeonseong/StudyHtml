@@ -14,7 +14,17 @@
     <img src="nothing" alt="없는이미지" /><br>
 
     <!-- 오디오 -->
-    <audio src="media/Kalimba.mp3" controls="controls"></audio><br>
+    <audio controls="controls">
+        <source src="media/Kalimba.mp3" type="audio/mp3" />
+        <source src="media/Kalimba.ogg" type="audio/ogg" />
+    </audio><br>
+
+    <!-- 동영상 -->
+    <video controls poster="https://placehold.it/640x360">
+        <source src="media/Wildlife.mp4" type="video/mp4" />
+        <source src="media/Wildlife.webm" type="video/webm" />
+    </video>
+
 </body>
 
 </html>
