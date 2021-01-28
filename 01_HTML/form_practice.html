@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div>
+        <h1>내이비</h1>
+    </div>
+    <div>
+        <h2>회원 로그인</h2>
+        <table>
+            <tr>
+                <td><label for="ID">아이디</label></td>
+                <td><input id="ID" type="text" name="ID"></td>
+            </tr>
+            <tr>
+                <td><label for="PW">비밀번호</label></td>
+                <td> <input id="PW" type="password" name="PW"></td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" value="로그인"><br>
+    </div>
+
+    <div>
+        <form>
+
+            <fieldset>
+                <legend>
+                    <h2>게스트 로그인</h2>
+                </legend>
+                <table>
+                    <tr>
+                        <td>성별</td>
+                        <td>
+                            <span>
+                                <input type="radio" name="rdo_gender" id="male" value="m">
+                                <label for="male">남자</label>
+                            </span>
+                            <span>
+                                <input type="radio" name="rdo_gender" id="female" value="f">
+                                <label for="female">여자</label>
+                            </span>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>나이</td>
+                        <td>
+                            <select>
+                                <option>~10대</option>
+                                <option selected>20대</option>
+                                <option>30대</option>
+                                <option>40대</option>
+                                <option>50대</option>
+                                <option>60대</option>
+                                <option>70대~</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>목적</td>
+                        <td>
+                            <span><input type="checkbox" name="chb_search" value="SEARCH">검색</span>
+                            <span><input type="checkbox" name="chb_blog" value="BLOG">블로그</span>
+                            <span><input type="checkbox" name="chb_cafe" value="CAFE">카페</span>
+                            <span><input type="checkbox" name="chb_mail" value="MAIL">메일</span>
+                            <span><input type="checkbox" name="chb_etc" value="ETC">기타</span>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" name="submit" value="로그인"><br>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+
+</html>
