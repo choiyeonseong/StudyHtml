@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS3 Selector Basic</title>
+
+    <!-- 내부 스타일시트 -->
+    <style>
+        /* 자손 선택자 */
+        div>h2 {
+            color: red;
+        }
+
+        /* 후손 선택자 */
+        #section h2 {
+            color: rgb(255, 217, 0);
+        }
+
+        /* 반응 선택자 */
+        h2:hover {
+            background-color: black;
+        }
+
+        h2:active {
+            background-color: orange;
+        }
+
+        /* 상태 선택자 */
+        input:focus {
+            background-color: orange;
+        }
+
+        input:enabled {
+            background-color: greenyellow;
+        }
+
+        input:disabled {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h2 class="title">Lorem ipsum</h2>
+        <div id="nav">
+            <h2>Navigation</h2>
+
+        </div>
+        <h3>subTitle</h3>
+    </div>
+
+    <div id="section">
+        <h2 class="title">Lorem ipsum</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dicta qui, officia libero amet modi.
+            Tenetur tempora sit commodi quam consequatur nesciunt eum voluptates sequi nihil autem facere, libero
+            quisquam. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a odio facilis voluptas ab
+            asperiores minima, aspernatur cupiditate doloribus necessitatibus minus delectus eaque at. Quia animi
+            dolorem asperiores voluptates sequi. <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, id inventore? Ipsam mollitia quo
+            totam et nisi perferendis illum a blanditiis, quae unde minus recusandae porro iste modi reiciendis.
+            Praesentium! <br>
+        </p>
+    </div>
+    <div>
+        <form>
+            <label for="">이름</label>
+            <input name="user_id" type="text" value="blah"><br>
+            <label for="">비밀번호</label>
+            <input name="user_pw" type="password" value="12345" disabled><br>
+        </form>
+    </div>
+</body>
+
+</html>
