@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS3 Selector Basic</title>
+    <style>
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            /* 리스트 스타일, 위치, 안쪽 여백 */
+            list-style: none;
+            float: left;
+            padding: 15px;
+        }
+
+        /* 구조 선택자 */
+        li:first-child {
+            border-radius: 10px 0 0 10px;
+            /* 위와 같은 의미
+            border-top-left-radius: 10px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 10px; 
+            */
+        }
+
+        li:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+
+        li:nth-child(2n) {
+            background-color: #ff0003;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: #800000;
+        }
+
+        li>a:first-child {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li><a href="#">세 번째</a></li>
+        <li><a href="#">네 번째</a></li>
+        <li>다섯 번째</li>
+        <li>여섯 번째</li>
+        <li>일곱 번째</li>
+    </ul>
+</body>
+
+</html>
