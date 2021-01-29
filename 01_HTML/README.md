@@ -7,5 +7,5 @@
 글자, 목록, 테이블, 미디어
 
 ## HTML5 입력 태그
-Get, Post 방식, form, input, textarea
+Get, Post 방식, form, input, select, fieldset, div, span, semantic
 [이전](https://github.com/choiyeonseong/StudyHtml)
