@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>One True Layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0 auto;
+            width: 800px;
+        }
+
+        #header {
+            overflow: hidden;
+            background-color: coral;
+        }
+
+        #section {
+            overflow: hidden;
+        }
+
+        #aside {
+            float: left;
+            width: 200px;
+            background-color: blueviolet;
+        }
+
+        #content {
+            float: right;
+            width: 600px;
+            background-color: chocolate;
+        }
+
+        #footer {
+            background-color: cyan;
+        }
+
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere
+        consequuntur nemo aut
+        quas iure cupiditate debitis odit, atque mollitia officiis laborum labore corrupti eveniet dicta quaerat
+        repudiandae animi quam.</div>
+
+    <div id="section">
+        <div id="aside" class="ellipsis">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut commodi deserunt
+            molestias, impedit
+            eos voluptates illo quisquam placeat repudiandae qui nemo pariatur, aut eligendi? Exercitationem, pariatur
+            sit. Vitae, debitis et!</div>
+        <div id="content" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias
+            consequuntur,
+            nobis, pariatur vitae ipsam, aliquam ea nihil facere libero repellat. Laboriosam placeat voluptas quibusdam.
+            Ad quae eos fuga! Deleniti.</div>
+    </div>
+
+    <div id="footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur minus suscipit,
+        exercitationem debitis commodi deserunt maxime iste necessitatibus ipsa non blanditiis voluptatibus nam ab
+        explicabo facere alias, molestiae dicta. Perferendis.</div>
+</body>
+
+</html>
