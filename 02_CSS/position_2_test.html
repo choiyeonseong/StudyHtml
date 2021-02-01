@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Position Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body>div {
+            width: 400px;
+            height: 100px;
+            /* border - color, style, width */
+            border: black solid 5px;
+            position: relative;
+            /* x,y 특정 방향으로만 스크롤 생성 */
+            overflow: scroll;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+            z-index: 100;
+        }
+
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 50;
+        }
+
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px;
+            top: 90px;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quo cumque corporis. Est quia expedita ut quos,
+        voluptatum harum ipsam a officiis totam. Quis eos, deserunt aut placeat sint sapiente?</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia similique error natus! Harum alias facilis
+        aliquam ea velit, debitis dolores voluptatum tempore fugit qui vitae rem labore aspernatur eius delectus!</h1>
+</body>
+
+</html>
