@@ -8,7 +8,7 @@ HTML 기본 학습
 
 ### HTML 기본학습
 
-[HTML 소스](https://github.com/choiyeonseong/StudyHtml/blob/main/01_HTML)
+[HTML 소스](https://github.com/choiyeonseong/StudyHtml/tree/main/01_HTML)
 
 ---------------------------------------
 
