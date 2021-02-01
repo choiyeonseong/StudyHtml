@@ -4,10 +4,44 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Viewport Meta</title>
+    <title>Responsive Web Test</title>
     <meta name='viewport' content='user-scalable=no, initial-scale=1'>
-    <link rel="stylesheet" href="styles/screen.css" media="screen">
-    <link rel="stylesheet" href="styles/print.css" media="print"> 
+    <style>
+        /* 모바일 */
+        @media (max-width: 499px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        /* 태블릿 */
+        @media (min-width: 500px) and (max-width: 799px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        /* 일반 웹 */
+        @media (min-width: 800px) {
+            body {
+                background-color: blue;
+            }
+        }
+
+        /* portrait 세로방향 */
+        @media screen and (orientation: portrait) {
+            body {
+                background-color: orange;
+            }
+        }
+
+        /* landscape 가로방향 */
+        @media screen and (orientation: landscape) {
+            body {
+                background-color: violet;
+            }
+        }
+    </style>
 </head>
 
 <body>
