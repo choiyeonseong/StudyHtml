@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        window.onload = function () {
+            // 변수를 선언 및 초기화합니다.
+            var radius = 10;
+            var pi = 3.14159265;
+
+            // 출력합니다.
+            console.log("원주율 " + (2 * radius * pi));
+            console.log("원의 면적 " + (pi * pi * radius));
+
+            // 조건문
+            var leftval = 35;
+            var rightval = 108;
+            if (leftval < rightval) {
+                console.log("조건이 참인 문장을 실행합니다.");
+            }
+            console.log("모든 일을 완료합니다.");
+
+            // 날짜
+            // Date 객체를 선언합니다: 현재 시간 측정
+            var date = new Date;
+
+            // 요소를 추출합니다.
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1; // month는 무조건 +1 해야 현재 달이 나옴
+            var day = date.getDay();
+            var hour = date.getHours();
+            var min = date.getMinutes();
+            var second = date.getSeconds();
+
+            console.log(year + "-" + month + "-" + day + " " + hour + ":" + min + ":" + second);
+
+            // 예제 9-4
+            // if (hour < 12) {
+            //     console.log("오전입니다.");
+            // }
+            // if (12 <= hour) {
+            //     console.log("오후입니다.");
+            // }
+
+            if (hour < 5) {
+                console.log("잠을 자렴...");
+            } else if (hour < 7) {
+                console.log("기상");
+            } else if (hour < 9) {
+                console.log("출근");
+            } else {
+                console.log("뭐할지 모름");
+            }
+
+            // 배열 array
+            var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            console.log(array);
+
+            // 배열 요소 접근
+            console.log(array[0]);
+            console.log(array[4]);
+            console.log(array[10]);
+
+            // 반복문
+            console.log("반복문 while");
+            var i = 0;
+            while (i < array.length) {
+                console.log("배열" + (i + 1) + "번째 값은 " + array[i]);
+                i++;
+            }
+
+            console.log("반복문 for");
+            for (var index = 0; index < array.length; index++) {
+                console.log(array[index]);
+            }
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <h2>
+        JavaScript
+    </h2>
+</body>
+
+</html>

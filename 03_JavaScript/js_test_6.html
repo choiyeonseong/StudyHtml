@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Clock</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // 로드 이벤트 연결
+        window.onload = function () {
+            // id 객체 가져오기
+            var clock = document.getElementById("clock");
+            // clock 객체의 html에 현재보다 3초전 시간 넣기
+            setInterval(function () {
+                var now = new Date();
+                clock.innerHTML = now.toString();
+            }, 3000);
+        };
+    </script>
+</head>
+
+<body>
+    <h1 id="clock"></h1>
+</body>
+
+</html>

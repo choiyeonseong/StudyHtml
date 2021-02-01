@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Test 5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        window.onload = function () { // 페이지 로드되었을 때 처리하는 이벤트
+            var header = document.getElementById("header");
+            console.log(header.innerText);
+
+            setInterval(() => {
+                header.style.backgroundColor = "red";
+                header.style.color = "orange";
+                header.innerHTML = "Hello World!";
+            }, 3000); // 3초 지연
+
+
+        }
+
+        // button에 input되는 changeColor 함수
+        function changeColor(newColor) {
+            var header = document.getElementById("header");
+            header.style.color = newColor;
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="header">Header</h1>
+    <input type="button" value="change" onclick="changeColor('blue');">
+</body>
+
+</html>
