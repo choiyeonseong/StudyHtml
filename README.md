@@ -29,9 +29,13 @@ JavaScript 기본 학습
 ## Responsive Web
 응답형 웹 기본 학습
 
+[Responsive_web](https://github.com/choiyeonseong/StudyHtml/blob/main/02_CSS/responsive_test.html)
+
 ---------------------------------------
 
 ## Project
 전체 통합 프로젝트
+
+[Project](https://github.com/choiyeonseong/StudyHtml/tree/main/04_Project)
 
 
