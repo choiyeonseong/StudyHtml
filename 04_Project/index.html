@@ -31,10 +31,10 @@
                     // isAnimated: true // 없어도 동작
                 });
             });
-           
+
             // 라이트박스
             $('.paper').click(function () {
-                showLightBox();
+                showLightBox(this);
             });
             $('#darken-background').click(function () {
                 hideLightBox();
@@ -46,13 +46,24 @@
         });
 
         // 라이트 박스 함수
-        function showLightBox() {
-            $("#random-image").attr({ // 랜덤 이미지 생성
+        function showLightBox(obj) {
+
+            // 방법(1) 그리드내 이미지 클릭한 것 나오게 하는 함수 변경
+            var img_src = obj.getElementsByTagName("img")[0].src;
+            $("#random-image").attr({
                 src: function () {
-                    var rnd_height = 500 + Math.floor(Math.random() * 100);
-                    return "https://placekitten.com/600/" + rnd_height;
+                    return img_src;
                 }
             });
+
+            // 방법(2) 랜덤 이미지 생성
+            // $("#random-image").attr({ 
+            //     src: function () {
+            //         var rnd_height = 500 + Math.floor(Math.random() * 100);
+            //         return "https://placekitten.com/600/" + rnd_height;
+            //     }
+            // });
+
             $('#darken-background').show(); // 라이트박스를 보이게 합니다.
             $('#darken-background').css('top', $(window).scrollTop());
             $('body').css('overflow', 'hidden'); // 스크롤을 못하게 합니다.
@@ -406,7 +417,7 @@
                 </div>
             </div>
             <hr class="lightbox-splitter">
-            <img id="random-image" src="https://placekitten.com/612/754">
+            <img id="random-image" width="600" src="https://placekitten.com/612/754">
         </div>
     </div>
     <footer id="main-footer"></footer>
