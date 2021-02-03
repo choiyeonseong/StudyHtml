@@ -30,7 +30,9 @@
 }
 
 .paper-link img{
-    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
 }
 
 .paper-text {
@@ -115,7 +117,7 @@
 }
 
 .user-information-image > img{
-    border-radius: 50px;
+    border-radius: 100%;
 }
 
 .user-information-text {
