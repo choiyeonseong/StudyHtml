@@ -30,7 +30,7 @@
 }
 
 .paper-link img{
-    border-radius: 7px;
+    border-radius: 50px;
 }
 
 .paper-text {
@@ -115,7 +115,7 @@
 }
 
 .user-information-image > img{
-    border-radius: 7px;
+    border-radius: 50px;
 }
 
 .user-information-text {
