@@ -11,6 +11,7 @@
 
    .header-menu {
        float: right;
+       /* margin-right: 5px; // 너무 끝에 붙으면 가로 스크롤이 생길 수 있음*/ 
    }
 
    .header-title {
@@ -33,10 +34,8 @@
        padding: 10px 0;
        position: relative;
        text-align: center;
-
        font-size: 13px;
        font-weight: bold;
-
        z-index: 9999;
    }
 
