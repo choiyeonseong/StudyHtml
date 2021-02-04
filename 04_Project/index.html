@@ -35,6 +35,7 @@
             // 라이트박스
             $('.paper').click(function () {
                 showLightBox(this);
+                console.log($(this).children(".paper-content").find("img")[0].src );
             });
             $('#darken-background').click(function () {
                 hideLightBox();
@@ -48,6 +49,7 @@
         // 라이트 박스 함수
         function showLightBox(obj) {
 
+            
             // 방법(1) 그리드내 이미지 클릭한 것 나오게 하는 함수 변경
             var img_src = obj.getElementsByTagName("img")[0].src;
             $("#random-image").attr({
@@ -55,6 +57,16 @@
                     return img_src;
                 }
             });
+
+            // user 이미지 받아오기
+            img_src=$(obj).children(".paper-content").find("img")[0].src;
+            $("#random-dogimage").attr({
+                src: function () {
+                    return img_src;
+                }
+            });
+
+
 
             // 방법(2) 랜덤 이미지 생성
             // $("#random-image").attr({ 
@@ -409,7 +421,7 @@
         <div id="lightbox">
             <div class="user-information">
                 <a class="user-information-image" href="#">
-                    <img src="https://placekitten.com/70/70">
+                    <img id="random-dogimage" src="https://placekitten.com/70/70">
                 </a>
                 <div class="user-information-text">
                     <h3>User</h3>
