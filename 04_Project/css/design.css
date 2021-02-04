@@ -118,6 +118,8 @@
 
 .user-information-image > img{
     border-radius: 100%;
+    width: 70px;
+    height: 70px;
 }
 
 .user-information-text {
