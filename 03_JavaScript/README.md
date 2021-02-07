@@ -17,7 +17,7 @@ object ==  tag
 window.onload = function () { // 페이지 로드되었을 때 처리하는 이벤트
             var header = document.getElementById("header");
             console.log(header.innerText);
-
+         };
 ```
 
 * 문서 객체 조작<br>
@@ -29,7 +29,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
 
             // h2 태그의 글자 색상을 변경합니다.
             document.querySelector('h2').style.color = 'red';
-        }
+        };
 ```
 
 * 이벤트<br>
@@ -57,14 +57,16 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
             // alert("Hello World");
             $('h1').css('background-color', 'black');
             $('h1').css('color', 'white');
+         };
 ```
+
 * 문서 객체 조작<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_1.html)
 ```
  $(document).ready(function () {
             console.log($('script').attr('src'));
+         };
 ```
-
 
 * 이벤트<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_2.html)
