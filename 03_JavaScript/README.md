@@ -110,10 +110,10 @@ $(document).ready(function () {
 ```
 
 ## 자바스크립트와 jQuery 라이브러리 응용
-* 입력 양식 포커스<br>
+* 입력 양식 포커스
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_4.html)
 * 프레임 애니메이션
-* 문서 객체 생성과 추가<br>
+* 문서 객체 생성과 추가
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_5.html)
 * 무한 스크롤 
 * 플러그인 사용 <br>
