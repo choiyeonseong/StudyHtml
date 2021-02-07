@@ -1,8 +1,8 @@
 /* 페이퍼 스타일 */
 .paper {
-    width: 190px;
-    margin-top: 10px;
-    padding: 15px 15px 0;
+    width: 210px;
+    margin-top: 5px;
+    padding: 5px 5px 0;
     font-size: 11px;
     background-color: #ffffff;
     box-shadow: 0 1px 3px rgba(34, 25, 25, 0.5);
@@ -18,8 +18,8 @@
 }
 
 .paper-content {
-    margin: 10px -15px 0 -15px;
-    padding: 10px 15px;
+    margin: 10px -5px 0 -5px;
+    padding: 10px 5px;
     background-color: #f2f0f0;
     overflow: hidden;
 }

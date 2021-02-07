@@ -11,7 +11,7 @@
 
    .header-menu {
        float: right;
-       /* margin-right: 5px; // 너무 끝에 붙으면 가로 스크롤이 생길 수 있음*/ 
+       /* margin-right: 5px; // 너무 끝에 붙으면 가로 스크롤이 생길 수 있음*/
    }
 
    .header-title {
@@ -20,8 +20,9 @@
        height: 40px;
        left: 50%;
        margin-left: -100px;
-       background-image: url("../images/logo03.png") ; /* 상대 경로 */
-       background-size:80% ;
+       background-image: url("../images/logo03.png");
+       /* 상대 경로 */
+       background-size: 80%;
        background-repeat: no-repeat;
        text-indent: -9999px;
    }
@@ -29,15 +30,21 @@
    /* 메뉴 */
    .outer-menu {
        float: left;
-       width: 100px;
+       width: 50px;
        height: 20px;
-       line-height: 20px;
+       /* line-height: 20px; */
        padding: 10px 0;
        position: relative;
        text-align: center;
        font-size: 13px;
        font-weight: bold;
        z-index: 9999;
+   }
+
+   li img {
+       width: 30px;
+       height: 30px;
+       margin-top: -4px;
    }
 
    .outer-menu:hover {
