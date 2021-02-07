@@ -15,7 +15,6 @@ input[type="text"] { color : red } //속성
 
 ## CSS3 속성
 ```
-//박스 속성
 #box{
             //박스 속성
             width: 50px;
