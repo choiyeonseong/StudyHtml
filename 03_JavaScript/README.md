@@ -11,16 +11,17 @@
 ## 문서 객체 모델
 * DOM(Document Object Model) : 웹 브라우저가 HTML 파일을 분석하고 출력하는 방식
 object ==  tag
-* 문서 객체 선택
+* 문서 객체 선택  
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_5.html)
 ```
 window.onload = function () { // 페이지 로드되었을 때 처리하는 이벤트
             var header = document.getElementById("header");
             console.log(header.innerText);
 
 ```
-[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_5.html)
 
-* 문서 객체 조작
+* 문서 객체 조작  
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_4.html)
 ```
   window.onload = function () {
             // h1 태그의 배경 색상을 변경합니다.
@@ -30,9 +31,9 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
             document.querySelector('h2').style.color = 'red';
         }
 ```
-[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_4.html)
 
-* 이벤트
+* 이벤트      
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_6.html)
 ```
   window.onload = function () {
             // id 객체 가져오기
@@ -44,27 +45,29 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
             }, 3000);
         };
 ```
-[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_6.html)
 
 ## jQuery 라이브러리
 
 * jQuery 라이브러리 설정
 
-* 문서 객체 선택
+* 문서 객체 선택  
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_1.html)
 ```
  $(document).ready(function () {
             // alert("Hello World");
             $('h1').css('background-color', 'black');
             $('h1').css('color', 'white');
 ```
-* 문서 객체 조작  
+* 문서 객체 조작 
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_1.html)
 ```
  $(document).ready(function () {
             console.log($('script').attr('src'));
 ```
-[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_1.html)
+
 
 * 이벤트
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_2.html)
 ```
  $(document).ready(function () {
              $('#box').css({
@@ -88,9 +91,9 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
             });
         });
 ```
-[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_2.html)
 
 * 시각 효과
+[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_3.html)
 ```
 $(document).ready(function () {
             $('#box').css({
@@ -103,8 +106,6 @@ $(document).ready(function () {
             }, 1000); // 1000ms = 1초
         });
 ```
-[코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_3.html)
-
 
 ## 자바스크립트와 jQuery 라이브러리 응용
 * 입력 양식 포커스
