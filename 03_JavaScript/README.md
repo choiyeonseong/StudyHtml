@@ -11,7 +11,7 @@
 ## 문서 객체 모델
 * DOM(Document Object Model) : 웹 브라우저가 HTML 파일을 분석하고 출력하는 방식
 object ==  tag
-* 문서 객체 선택  
+* 문서 객체 선택 <br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_5.html)
 ```
 window.onload = function () { // 페이지 로드되었을 때 처리하는 이벤트
@@ -20,7 +20,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
 
 ```
 
-* 문서 객체 조작  
+* 문서 객체 조작<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_4.html)
 ```
   window.onload = function () {
@@ -32,7 +32,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
         }
 ```
 
-* 이벤트      
+* 이벤트<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/js_test_6.html)
 ```
   window.onload = function () {
@@ -50,7 +50,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
 
 * jQuery 라이브러리 설정
 
-* 문서 객체 선택  
+* 문서 객체 선택<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_1.html)
 ```
  $(document).ready(function () {
@@ -58,7 +58,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
             $('h1').css('background-color', 'black');
             $('h1').css('color', 'white');
 ```
-* 문서 객체 조작 
+* 문서 객체 조작<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_1.html)
 ```
  $(document).ready(function () {
@@ -66,7 +66,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
 ```
 
 
-* 이벤트
+* 이벤트<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_2.html)
 ```
  $(document).ready(function () {
@@ -92,7 +92,7 @@ window.onload = function () { // 페이지 로드되었을 때 처리하는 이�
         });
 ```
 
-* 시각 효과
+* 시각 효과<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_3.html)
 ```
 $(document).ready(function () {
@@ -108,10 +108,10 @@ $(document).ready(function () {
 ```
 
 ## 자바스크립트와 jQuery 라이브러리 응용
-* 입력 양식 포커스
+* 입력 양식 포커스<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_4.html)
 * 프레임 애니메이션
-* 문서 객체 생성과 추가
+* 문서 객체 생성과 추가<br>
 [코드](https://github.com/choiyeonseong/StudyHtml/blob/main/03_JavaScript/jquery_test_5.html)
 * 무한 스크롤 
 * 플러그인 사용 <br>
