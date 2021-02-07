@@ -9,7 +9,9 @@
 글자, 목록, 테이블, 미디어 태그
 
 ## HTML5 입력 태그와 구조화 태그
-Get, Post 방식, form, input, select, fieldset, div, span, semantic 
+Get, Post 방식, form, input, select, fieldset, div, span, 
+[semantic](https://github.com/choiyeonseong/StudyHtml/blob/main/01_HTML/space_test.html),
+[연습코드](https://github.com/choiyeonseong/StudyHtml/blob/main/01_HTML/form_practice.html)
 <br>
 
 [이전](https://github.com/choiyeonseong/StudyHtml)
